@@ -1,0 +1,16 @@
+.view {
+  margin: auto;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .load-button {
+    padding: 5px 10px;
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  .dynamic-view {
+    width: 100%;
+    height: 640px;
+  }
+}
